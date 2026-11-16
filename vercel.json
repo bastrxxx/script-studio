@@ -1,5 +1,12 @@
 {
   "rewrites": [
-    { "source": "/((?!app\\.js|index\\.css|logo\\.png|online-config\\.json).*)", "destination": "/index.html" }
+    {
+      "source": "/api/:path*",
+      "destination": "https://entire-junction-merchants-daniel.trycloudflare.com/api/:path*"
+    },
+    {
+      "source": "/((?!api/|app\\.js|index\\.css|logo\\.png|online-config\\.json).*)",
+      "destination": "/index.html"
+    }
   ]
 }
