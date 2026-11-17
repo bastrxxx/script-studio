@@ -2,10 +2,10 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://entire-junction-merchants-daniel.trycloudflare.com/api/:path*"
+      "destination": "https://meditation-numerous-yields-discussions.trycloudflare.com/api/:path*"
     },
     {
-      "source": "/((?!api/|app\\.js|index\\.css|logo\\.png|online-config\\.json).*)",
+      "source": "/((?!api/|app\\.js|index\\.css|logo\\.png|online-config\\.json|seed-db\\.json).*)",
       "destination": "/index.html"
     }
   ]
